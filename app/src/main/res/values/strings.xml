@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Hunar Brand</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onboarding_text_1">First slider</string>
+    <string name="onboarding_text_2">Second slider</string>
+    <string name="onboarding_text_3">Third slider</string>
+    <string name="search">Search</string>
+    <string name="unauthorized_icon">Unauthorized icon</string>
+    <string name="login">Login</string>
+    <string name="ro_yxatdan_o_tish">Ro\'yxatdan o\'tish</string>
+    <string name="settings">Settings</string>
+    <string name="news">News</string>
+    <string name="image_item_slider">Image item slider</string>
+    <string name="mega_green_planetga_xush_kelibsiz_u_yerda_biz_sayyoramiz_uchun_barqaror_va_ekologik_xavfsiz_kelajakni_yaratishga_intilamiz_etakchi_ekologik_kompaniya_sifatida_biz_yashil_hayotni_targ_ib_qiluvchi_va_sog_lom_sayyoraga_hissa_qo_shadigan_innovatsion_yechimlar_va_mahsulotlarni_taqdim_etishga_ixtisoslashganmiz">Mega Green Planetga xush kelibsiz, u yerda biz sayyoramiz uchun barqaror va ekologik xavfsiz kelajakni yaratishga intilamiz. Etakchi ekologik kompaniya sifatida biz yashil hayotni targ\'ib qiluvchi va sog\'lom sayyoraga hissa qo\'shadigan innovatsion yechimlar va mahsulotlarni taqdim etishga ixtisoslashganmiz.</string>
+    <string name="payme_type">Payme type</string>
+    <string name="manzilingizni_kiriting">Manzilingizni kiriting</string>
+    <string name="telefon_raqamingiz">Telefon raqamingiz</string>
+    <string name="allaqachon_ro_yxatdan_o_tganmisiz">Allaqachon ro\'yxatdan o\'tganmisiz?</string>
+    <string name="familyangiz">Familyangiz</string>
+    <string name="ismingiz">Ismingiz</string>
+    <string name="tug_ilgan_kuningiz">Tug\'ilgan kuningiz</string>
+    <string name="jinsingiz">Jinsingiz</string>
+    <string name="erkak">Erkak</string>
+    <string name="ayol">Ayol</string>
+    <string name="yo_nalishingizni_tanlang">Yo\'nalishingizni tanlang</string>
+    <string name="parol_o_ylab_toping">Parol o\'ylab toping</string>
+    <string name="parolni_takrorlang">Parolni takrorlang</string>
+    <string name="brendingiz_logosini_kiriting">Brendingiz logosini kiriting</string>
+    <string name="brendingiz_nomini_kiriting">Brendingiz nomini kiriting</string>
+</resources>

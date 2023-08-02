@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tabsFragment">
+
+    <fragment
+        android:id="@+id/tabsFragment"
+        android:name="uz.project.hunarbrand.main_fragment.main.ui.ui.TabsFragment"
+        android:label="TabsFragment"
+        tools:layout="@layout/activity_tabs">
+        <action
+            android:id="@+id/action_tabsFragment_to_exclusiveProductsFragment"
+            app:destination="@id/exclusiveProductsFragment" />
+        <action
+            android:id="@+id/action_tabsFragment_to_brandProductsFragment"
+            app:destination="@id/brandProductsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="uz.project.hunarbrand.search.ui.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/likeFragment"
+        android:name="uz.project.hunarbrand.liked.ui.LikeFragment"
+        android:label="fragment_like"
+        tools:layout="@layout/fragment_like" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="uz.project.hunarbrand.cart.ui.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="uz.project.hunarbrand.profile.ui.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_myExclusiveProducts2"
+            app:destination="@id/myExclusiveProducts2" />
+        <action
+            android:id="@+id/action_profileFragment_to_myBrandProducts2"
+            app:destination="@id/myBrandProducts2" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="uz.project.hunarbrand.main_fragment.detail.DetailFragment"
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_detail_product" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/brandProductsFragment"
+        tools:layout="@layout/fragment_brand_products"
+        android:name="uz.project.hunarbrand.main_fragment.main.products.brands.ui.BrandProductsFragment"
+        android:label="BrandProductsFragment" >
+        <action
+            android:id="@+id/action_brandProductsFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exclusiveProductsFragment"
+        tools:layout="@layout/fragment_exclusive_products"
+        android:name="uz.project.hunarbrand.main_fragment.main.products.exclusive.ui.ExclusiveProductsFragment"
+        android:label="ExclusiveProductsFragment" >
+        <action
+            android:id="@+id/action_exclusiveProductsFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/myExclusiveProducts2"
+        tools:layout="@layout/my_exclusive_products"
+        android:name="uz.project.hunarbrand.profile.ui.MyExclusiveProducts"
+        android:label="MyExclusiveProducts" >
+        <action
+            android:id="@+id/action_myExclusiveProducts2_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/my_brand_products"
+        android:id="@+id/myBrandProducts2"
+        android:name="uz.project.hunarbrand.profile.ui.MyBrandProducts"
+        android:label="MyBrandProducts" >
+        <action
+            android:id="@+id/action_myBrandProducts2_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        tools:layout="@layout/activity_main"
+        android:name="uz.project.hunarbrand.main_fragment.main.ui.ActivityFragment"
+        android:label="MainActivity" />
+</navigation>

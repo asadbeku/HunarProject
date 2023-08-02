@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MainAppHunar" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <!-- Customize BottomNavigationView -->
+        <item name="android:statusBarColor" tools:targetApi = "l">#000000</item>
+        <item name="bottomNavigationStyle">@style/BottomNavigationViewStyle</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <!-- Customize the background color of the app bar overlay -->
+        <item name="android:background">@color/primaryDarkColor</item>
+
+        <!-- Customize the color of the app bar title text -->
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!-- Customize the color of the app bar menu icon -->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+
+</resources>
